@@ -1,0 +1,15 @@
+html(lang='en')
+  head
+    Title Tip Calculator
+    link(href='/style.css', rel='stylesheet')
+  body(style='background-color:' + color)
+    h1 SuperCalc !!
+    form(action='/tipcalc', method='post')
+      input(type='number',name='amount', value=amount)
+      select(id='Percent', name='percent')
+        option(value='.05', selected='.05' ) 5%
+        option(value='.10', selected='.10') 10%
+        option(value='.15', selected='.15') 15% 
+
+      button(type='submit') Compute Tip
+      span= r

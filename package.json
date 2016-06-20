@@ -1,0 +1,26 @@
+{
+  "name": "tcalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emp320/tcalc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emp320/tcalc/issues"
+  },
+  "homepage": "https://github.com/emp320/tcalc#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta3"
+  }
+}
